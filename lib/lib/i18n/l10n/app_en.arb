@@ -1,0 +1,38 @@
+{
+    "@@locale": "en",
+    "appTitle": "Win System Panel",
+
+    "opShutdown": "Shutdown",
+    "opRestart": "Restart",
+    "opHibernate": "Hibernate",
+    "opCancel": "Cancel Task",
+
+    "statusReady": "System Ready",
+    "statusScheduled": "Scheduled Shutdown",
+    "statusNoTask": "No Task Scheduled",
+
+    "logTaskStarted": "Task scheduled for {time}.",
+    "logTaskAborted": "Task aborted by user.",
+    "logCommandFailed": "Command execution failed: Check permissions.",
+
+    "timeUnitMinutes":"minutes",
+    "opSchedule":"Schedule Task",
+
+    "switchLightMode":"Switch to Light Mode",
+    "switchDarkMode":"Switch to Dark Mode",
+
+    "deviceInfoTitle":"Device Status",
+    "settingsTitle":"Settings",
+    "infoTitle":"About & Info",
+    "underConstruction":"(Under Construction)",
+
+    "minimizedToTray":"Window minimized to tray to keep the task running.",
+    "showWindow":"Show",
+
+    "runningTaskTitle":"Active Task Running",
+    "runningTaskMessage":"The power operation '{taskName}' is scheduled to execute at {time}. What would you like to do?",
+    "@runningTaskMessagePlaceholder":{"type": "String", "example": "Shutdown", "parameters": ["taskName", "time"]},
+    "optionExitAndCancel":"Exit and Cancel Task",
+    "optionMinimizeToTray":"Minimize to Tray"
+
+}

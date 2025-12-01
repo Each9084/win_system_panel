@@ -1,0 +1,38 @@
+{
+    "@@locale": "zh",
+    "appTitle": "Windows 系统控制台",
+
+    "opShutdown": "定时关机",
+    "opRestart": "定时重启",
+    "opHibernate": "定时休眠",
+    "opCancel": "取消任务",
+
+    "statusReady": "系统就绪",
+    "statusScheduled": "定时任务已启动",
+    "statusNoTask": "当前无定时任务",
+
+    "logTaskStarted": "任务已计划在 {time} 执行。",
+    "logTaskAborted": "用户已取消当前任务。",
+    "logCommandFailed": "命令执行失败：请检查权限。",
+
+    "timeUnitMinutes":"分钟",
+    "opSchedule":"启动定时",
+
+    "switchLightMode":"切换到浅色模式",
+    "switchDarkMode":"切换到深色模式",
+
+    "deviceInfoTitle":"设备状态",
+    "settingsTitle":"设置",
+    "infoTitle":"关于与信息",
+    "underConstruction":"(正在开发中)",
+
+    "minimizedToTray":"窗口已最小化到托盘以保持任务运行。",
+    "showWindow":"显示",
+
+    "runningTaskTitle":"有任务正在运行",
+    "runningTaskMessage":"定时操作 {taskName} 已计划在 {time} 执行。您希望如何处理？",
+    "@runningTaskMessagePlaceholder":{"type": "String", "example": "定时关机", "parameters": ["taskName", "time"]},
+    "optionExitAndCancel":"退出并取消任务",
+    "optionMinimizeToTray":"最小化到托盘"
+
+}
